@@ -4,6 +4,8 @@ This repository contains additional resources for the Skillshare flexbox course.
 
 ### Table of Contents
 
+Each folder includes a readme that outlines the topics covered in each video, along with any links that were mentined. Some folders also include the code used in that lesson.
+
 - [Video 1: Intro](./video-01)
 - [Video 2: Tooling](./video-02)
 - [Video 3: HTML5 Basics & Semantic Elements](./video-03)
