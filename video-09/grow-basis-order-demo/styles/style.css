@@ -1,0 +1,40 @@
+section {
+  background-color: #ddd;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  /* flex-direction: column; */
+}
+
+section div {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+
+}
+
+.box1 {
+  background-color: darkgreen;
+  flex-grow: 1;
+  order: 5;
+}
+
+.box2 {
+  background-color: darkgoldenrod;
+  flex-grow: 2;
+
+}
+
+.box3 {
+  background-color: darkblue;
+}
+
+.box4 {
+  background-color: darkred;
+  order: 4;
+}
+
+.box5 {
+  background-color: darkcyan;
+}

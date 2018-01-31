@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+div {
+  margin: 5px;
+}
+
+.box {
+  background-color: lightskyblue;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+  display: flex;
+}
+
+.boxes {
+  background-color: #ddd;
+  display: flex;
+  min-height: 300px;
+  width: 600px;
+}
+
+.box .box {
+  border: 1px solid black;
+}
