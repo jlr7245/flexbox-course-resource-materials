@@ -1,0 +1,62 @@
+/* setting up colors & padding */
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-color: aquamarine;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+article {
+  background-color: lightsalmon;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+aside {
+  background-color: lightskyblue;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: lightgoldenrodyellow;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* HERE COMES SOME FLEXBOX */
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+header, footer {
+  flex-basis: 150px;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+aside {
+  flex-basis: 200px;
+}
+
+article {
+  flex-grow: 1;
+  order: 1;
+}
+
+.left {
+  order: 0;
+}
+
+.right {
+  order: 3;
+}

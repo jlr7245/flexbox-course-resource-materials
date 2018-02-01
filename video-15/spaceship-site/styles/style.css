@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Space+Mono:400,700');
+
+
+/* base styles */
+
+body {
+  line-height: 1.4em;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+span.button {
+  display: block;
+}
+
+.container {
+  max-width: 1000px;
+  width: 80vw;
+  margin: 15px auto;
+  box-sizing: border-box;
+}
+
+/* hero area */
+
+header {
+  display: flex;
+  flex-direction: column;
+  min-height: 800px;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+.hero {
+  text-align: center;
+  font-size: 2em;
+  line-height: 1.4em;
+}
+
+.hero h1 {
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: bold;
+  margin: 40px 0;
+}
+
+.hero p {
+  margin-bottom: 30px;
+}
+
+/* top CTA */
+
+.cta {
+  margin: 0 auto;
+  display: flex;
+  padding: 50px 0;
+  justify-content: space-between;
+  align-items: baseline;
+  max-width: 1000px;
+  width: 80vw;
+  margin: 15px auto;
+  box-sizing: border-box;
+}
+
+.cta h3 {
+  font-size: 2em;
+  line-height: 1.4em;
+  flex-basis: 66%;
+}
+
+/* three-column area */
+
+.three-columns {
+  padding: 50px 0;
+}
+
+.three-columns h3 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.column-cont {
+  display: flex;
+  padding: 50px 0;
+  max-width: 1000px;
+  width: 80vw;
+  margin: 15px auto;
+  box-sizing: border-box;
+}
+
+.column-third {
+  max-width: 33%;
+  flex-grow: 1;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.column-third img {
+  max-width: 100%;
+}
+
+.column-third p {
+  font-size: 1.5em;
+  text-align: center;
+  margin: 15px 0;
+  line-height: 1.3em;
+}
+
+/* picture/image section */
+
+.two-halves {
+  display: flex;
+}
+
+.pic-container, .content {
+  flex-grow: 1;
+  flex-basis: 50%;
+  min-height: 400px;
+  align-items: center;
+  display: flex;
+}
+
+.content p {
+  font-size: 1.8em;
+  line-height: 1.7em;
+}
+
+.content {
+  padding: 50px 100px;
+  box-sizing: border-box;
+}
+
+.pic-container {
+  background-color: grey;
+}
+
+/* final blurb */
+
+.final-blurb {
+  max-width: 800px;
+  width: 70vw;
+  margin: auto;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.blurb p {
+  font-size: 2.5em;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+}
